@@ -12,3 +12,9 @@ provider "octopusdeploy" {
   url     = var.octo_url
   api_key = var.octo_api_key
 }
+
+data "octopusdeploy_libraryvariableset" "global" {
+  id = "LibraryVariableSets-21"
+}
+
+

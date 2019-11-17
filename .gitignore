@@ -2,4 +2,6 @@ terraform-provider-octopusdeploy
 crash.log
 terraform.tfstate
 terraform.tfstate.backup
-.terraform
+.terraform/
+
+.idea/
